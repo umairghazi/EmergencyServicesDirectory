@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7d21b33c-6655-4f57-825e-0c04e0c4a8d6" name="Gibson" url="http://gibson.rit.edu">
+        <fileTransfer host="gibson.rit.edu" port="22" rootFolder="/home/ug7856/www/754" accessType="SFTP" password="dfebdfc7dfc5dfd8dfcfdf9bdf98df99df8edf8e" username="ug7856">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

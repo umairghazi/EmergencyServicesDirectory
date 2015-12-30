@@ -1,0 +1,122 @@
+.tabs{
+    border: 1px solid gray !important;
+}
+
+body{
+    margin: 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+}
+
+#tableHead th{
+    background-color:#1479CC;
+    color: white;
+    font-weight: normal !important;
+}
+
+#map {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    float: right;
+}
+
+.orgName{
+    cursor:pointer;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+
+
+#locDiv{
+    width: 45%;
+}
+
+#loadingDiv{
+    font-size : xx-large;
+}
+
+#header {
+    width: 100%;
+    background-color: #1479CC;
+    color: white;
+    text-align: center;
+    height: 120px;
+    margin-bottom: 25px;
+    transition: all 0.8s ease;
+}
+
+#header:hover{
+    background: #FFC840;
+}
+
+#collapseTwo ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#collapseTwo li{
+    display: inline;
+}
+
+#formContainer{
+}
+
+.btn-submit{
+    background-color: #1479CC;
+    color: whitesmoke;
+    width: 50%;
+}
+
+.btn-submit:hover{
+    background-color: #FFC840;
+    color: black;
+    width: 50%;
+}
+
+.btn-submit:active{
+    background-color: #FFC840;
+    color: black;
+    width: 50%;
+    border: inset;
+}
+
+.btn-reset{
+    background-color: #1479CC;
+    color: whitesmoke;
+    width: 49%;
+}
+.btn-reset:hover{
+    background-color: #FFC840;
+    color: black;
+    width: 49%;
+}
+
+#searchForm{
+    padding: 20px;
+    /*box-shadow: 3px 3px 1px #FFC840;*/
+}
+
+
+textarea:focus, select:focus, input:focus, .uneditable-input:focus {
+    border-color: rgba(255, 200, 64, 0.8) !important;
+    box-shadow: 0 1px 1px rgba(255, 200, 64, 0.75) inset, 0 0 8px rgba(255, 200, 64, 0.6) !important;
+    outline: 0 none !important;
+}
+
+
+[ng-click],[data-ng-click],[x-ng-click] {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+    .modal-xlg {
+        width: 95%;
+    }
+}
+
+#searchForTable{
+    float: right;
+}
