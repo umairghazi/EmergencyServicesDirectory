@@ -4,7 +4,7 @@
 
 (function () {
     /** GLOBALS **/
-    var url = "http://people.rit.edu/dmgics/754/23/proxy.php";
+    var url = "https://people.rit.edu/dmgics/754/23/proxy.php";
     var http = new XMLHttpRequest();
     var app = angular.module('RestClientApp', ['angularUtils.directives.dirPagination']);
 
